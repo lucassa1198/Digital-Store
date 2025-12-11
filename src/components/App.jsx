@@ -1,12 +1,13 @@
-import './App.css'
-import './Button.jsx'
+import './App.css';
+import Header from './Header.jsx';
+
 
 function App() {
  
 
   return (
     <>
-     <Button corFundo='bg-yellow-500'/>
+    <Header />
     </>
   )
 }
